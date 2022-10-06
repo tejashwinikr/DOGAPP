@@ -1,0 +1,36 @@
+body{
+  margin:0px;
+  background-color: rgb(235, 33, 134);
+}
+
+.DogApp{
+  margin: 20px;
+}
+.btn{
+  background-color: rgb(73, 141, 5);
+}
+h1{
+  text-align: center;
+}  
+body{
+  margin:0px;
+  background-color: rgb(232, 242, 242);
+}
+
+.dogcontainer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container{
+  display:grid;
+  height: 100vh;
+  grid-template-columns: 250px auto;
+}
+.sidebar{
+  background-color: rgb(78, 98, 138);
+}
+.maxbar{
+  background-color: rgb(225, 216, 234);
+}

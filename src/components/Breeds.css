@@ -1,0 +1,42 @@
+.breed-container {
+  margin-top: 20px;
+  margin-bottom: auto;
+  border: 10px dashed pink;
+  width: 200;
+  height: 250;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+body {
+  margin: 0px;
+  background-color: rgb(232, 242, 242);
+}
+
+.breed-name {
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.dogcontainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 250px auto;
+}
+.sidebar {
+  background-color: rgb(197, 197, 15);
+}
+.maxbar {
+  background-color: rgb(225, 216, 234);
+}

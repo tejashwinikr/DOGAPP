@@ -1,0 +1,42 @@
+.searchApp {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: justify;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(232, 242, 242);
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 250px auto;
+}
+.sidebar {
+  background-color: rgb(197, 197, 15);
+}
+.maxbar {
+  background-color: rgb(225, 216, 234);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

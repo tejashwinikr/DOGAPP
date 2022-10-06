@@ -1,0 +1,25 @@
+#nav {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 8px 0px;
+}
+
+.navButton a {
+  text-decoration: none;
+}
+
+.dogcontainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  background-color: rgb(91, 29, 78);
+}
+.maxbar {
+  background-color: rgb(225, 216, 234);
+}

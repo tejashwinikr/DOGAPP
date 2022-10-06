@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  font-family: "SF Pro Text";
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#nav {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 8px 0px;
+}
+
+.navButton a {
+  text-decoration: none;
+}
